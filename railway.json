@@ -4,7 +4,7 @@
   },
   "deploy": {
     "startCommand": "gunicorn server:app",
-    "healthcheckPath": "/",
+    "healthcheckPath": "/health",
     "restartPolicyType": "ON_FAILURE"
   }
 }
