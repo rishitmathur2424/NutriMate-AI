@@ -1,5 +1,8 @@
+[phases.setup]
+nixPkgs = ["python311", "python311Packages.pip"]
+
 [phases.install]
-cmds = ["pip install flask flask-cors requests gunicorn"]
+cmds = ["pip install -r requirements.txt"]
 
 [start]
 cmd = "gunicorn server:app"
