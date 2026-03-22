@@ -7,7 +7,7 @@ import base64
 from datetime import datetime, timezone
 
 app = Flask(__name__)
-@app.route("/")
+@app.route("/health")
 def health():
     return "OK", 200
 
