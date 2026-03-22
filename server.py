@@ -7,6 +7,9 @@ import base64
 from datetime import datetime, timezone
 
 app = Flask(__name__)
+@app.route("/")
+def health():
+    return "OK", 200
 
 @app.after_request
 def add_cors(response):
