@@ -206,7 +206,7 @@ def history():
 
 # ── AI Chat ───────────────────────────────────
 
-SIM_API_KEY = "sk-sim-XoyEvRSZkbdyFmeZaR5s7EF6VoSoAszP"
+SIM_API_KEY = "sk-sim-"
 WORKFLOW_ID  = "1242b3a8-390b-40f3-be79-2484f4281f53"
 API_URL      = f"https://www.sim.ai/api/workflows/{WORKFLOW_ID}/execute"
 
